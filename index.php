@@ -2,6 +2,8 @@
 <?php include('inc/header.php') ?>
 <!-- header part ends -->
 
+
+<div class="demo">this is just demo</div>
 <!-- nav slider html -->
 <div class="banner-slider" style="background-image: url(assets/img/banner.png)">
     <!-- <img src="" alt="banner_photo"> -->
@@ -550,8 +552,7 @@
                         <input type="text" id="address" name="address" placeholder="Enter your address" required>
 
                         <!-- <label for="message">Leave a Message:</label> -->
-                        <textarea id="message" name="message" rows="8" placeholder="Leave a message.."
-                            required></textarea>
+                        <textarea id="message" name="message" rows="8" placeholder="Leave a message.." required></textarea>
 
                         <div class="form-btn text-start">
                             <button type="submit">Submit</button>
@@ -565,9 +566,9 @@
 <!-- ---------------------------footer starts--------------------- -->
 <?php
 
-    include('inc/footer.php');
-    include('inc/js.php')
-    ?>
+include('inc/footer.php');
+include('inc/js.php')
+?>
 
 <!-- <script>const navItems = document.querySelectorAll('.navbar-nav  > li a');
     if (navItems.length >= 1) {
