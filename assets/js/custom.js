@@ -1,12 +1,16 @@
 var $ = jQuery;
 function owlCarouselJs(){
-    $('.owl-carousel').owlCarousel({
+    $('.card_slider').owlCarousel({
       loop:true,
-      margin:10,
+      margin:15,
       nav:true,
+      dots: true,
       responsive:{
           0:{
               items:1
+          },
+          1280:{
+              items:2
           },
       }
   });
@@ -14,22 +18,3 @@ function owlCarouselJs(){
 $(document).ready(function(){
   owlCarouselJs();
 });
-
-$('.owl-carousel.tour-owl').owlCarousel({
-  loop: true,
-    autoplay: true,
-    items: 3,
-  margin:20,
-    stagePadding: 5,
-    nav: true,
-  center:false,
-  dot:true,
-  responsive:{
-      0:{
-          items:1
-      },
-      800:{
-          items:3
-      }
-  }
-})

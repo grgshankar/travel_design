@@ -86,3 +86,9 @@
         </div>
     </div>
 </footer>
+<?php 
+include('inc/js.php')
+?>
+</body>
+
+</html>

@@ -6,6 +6,8 @@
   :root{
     --roboto:'Roboto Condensed', sans-serif;
     --bebas: 'Bebas Neue', sans-serif;
+    --popin: 'Poppins', sans-serif;
+    --golden: #A49389;
   }
   html {
     overflow-x: hidden;
@@ -14,6 +16,10 @@
     background: ffffff;
     overflow-x: hidden;
     font-family: var(--roboto);
+  }
+  .container{
+    max-width: 1800px;
+    width: 90%;
   }
   section {
     margin-top: 5rem;
@@ -28,14 +34,11 @@
     font-family: var(--bebas);
 }
   p {
-    font-size: 16px;
+    font-size: 14px;
     margin: 0;
     color: #514949;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0px;
+    font-family: var(--popin);
+    font-weight: 300;
   }
 
   /* popular destination css starts */
@@ -50,7 +53,24 @@
     letter-spacing: 1px;
     padding-bottom: 2rem;
 }
-
+.banner_content_wrap {
+    max-width: 620px;
+    width: 100%;
+}
+.banner_content_wrap p {
+    color: var(--golden);
+    font-weight: normal;
+    display: block;
+    margin-bottom: 14px;
+}
+.banner_content_wrap span {
+    color: var(--golden);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: var(--bebas);
+    letter-spacing: 0.2px;
+}
 .pop-dest-img img {
     width: 100%;
     height: 470px;
@@ -224,6 +244,14 @@ section.main-flex-banner p {
     text-decoration: none;
     color: #fff;
     border: 1px solid #726765;
+}
+.btn_.btn_transparent{
+    background: transparent;
+    color: var(--golden);
+    border: 1px solid var(--golden);
+    border-radius: 0px;
+    padding: 12px 50px;
+    text-transform: uppercase;
 }
 .btn_:hover{
     text-decoration: none;
@@ -486,6 +514,182 @@ ul.footer-social-links li i:hover {
 
 
 /* ============== */
+
+.card_slider {
+    padding-right: 10px !important;
+}
+.banner-slider{
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    padding-bottom: 5rem;
+}
+.banner-slider::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(310deg, rgb(0 0 0 / 80%), transparent);
+}
+.btn_play{
+    position: relative;
+    display: inline-block;
+}
+.btn_play::after{
+    content: '';
+    position: absolute;
+    right: -27px;
+    top: 50%;
+    background: url(../img/arrow_golden.svg) no-repeat;
+    background-size: cover;
+    width: 23px;
+    height: 11px;
+    transform: translate(0, -50%);
+}
+.btn_play span{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    position: relative;
+}
+@keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+.btn_play span::before{
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: url(../img/circular_text.svg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    -webkit-animation: rotating 5s linear infinite;
+    -moz-animation: rotating 5s linear infinite;
+    -ms-animation: rotating 5s linear infinite;
+    -o-animation: rotating 5s linear infinite;
+    animation: rotating 5s linear infinite;
+}
+.btn_play span::after{
+    content: '';
+    position: absolute;
+    left: 53%;
+    top: 50%;
+    background: url(../img/icon_play.svg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 18px;
+    height: 24px;
+    transform: translate(-50%, -50%);
+}
+.banner-slider .card_{
+    border: 1px solid var(--golden);
+    padding: 20px;
+    border-radius: 15px;
+}
+.banner-slider .card_ strong {
+    color: var(--golden);
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.banner-slider .card_ p {
+    font-size: 14px;
+    color: var(--golden);
+    line-height: normal;
+    font-weight: normal;
+    display: block;
+    margin: 10px 0px;
+    margin-bottom: 20px;
+    min-height: 203px;
+    height: auto;
+}
+.btn_read_more{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--golden);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: var(--bebas);
+    font-size: 22px;
+}
+.btn_read_more:hover{
+    color: var(--golden);
+    text-decoration: none;
+}
+.btn_read_more .icon_plus {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 2px solid var(--golden);
+    position: relative;
+    margin-right: 14px;
+    transition: all 0.3s ease-in-out;
+}
+.btn_read_more:hover .icon_plus{
+    transform: rotate(90deg);
+}
+
+.btn_read_more .icon_plus::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: url(../img/plus_icon.svg) no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+.card_ .item_btn {
+    min-height: 76px;
+    height: auto;
+}
+
+.owl-dots button {
+    background: var(--golden) !important;
+    width: 20px;
+    height: 5px;
+    margin-right: 10px;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.owl-dots button.active {
+    opacity: 1;
+    background: #DFC6B3 !important;
+    width: 38px;
+}
+
+.owl-dots button:focus {
+    outline: none;
+    border: none;
+}
+
+.owl-dots {
+    text-align: center;
+}
+
 .banner-slider img {
     width: 100%;
     height: 600px;
