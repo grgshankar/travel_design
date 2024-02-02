@@ -3,16 +3,30 @@
     padding: 0;
     box-sizing: border-box;
   }
+  :root{
+    --roboto:'Roboto Condensed', sans-serif;
+    --bebas: 'Bebas Neue', sans-serif;
+  }
   html {
     overflow-x: hidden;
   }
   body {
     background: ffffff;
     overflow-x: hidden;
+    font-family: var(--roboto);
   }
   section {
     margin-top: 5rem;
   }
+  h1 {
+    font-size: 72px;
+    background: linear-gradient(133deg, rgb(223 198 179 / 93%), rgb(97 93 93 / 47%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: var(--bebas);
+}
   p {
     font-size: 16px;
     margin: 0;
@@ -202,13 +216,18 @@ section.main-flex-banner p {
     padding: 1rem 0;
 }
 
-.web-btn a {
+.btn_ {
+    border: none;
     padding: 10px 30px;
     border-radius: 3.31px;
     background: #726765;
     text-decoration: none;
     color: #fff;
     border: 1px solid #726765;
+}
+.btn_:hover{
+    text-decoration: none;
+    color: #fff;
 }
 
 .web-btn {
