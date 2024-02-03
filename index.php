@@ -67,7 +67,7 @@
 <!-- ====popular destination part starts--------------------- -->
 <section class="main-pop-dest">
   <div class="container">
-    <h1 class="web-h text-center">Popular Destination</h1>
+    <strong class="web-h text-center">Popular Destination</strong>
     <div class="row">
       <div class="col-md-4">
         <div class="pop-dest-box">
@@ -133,15 +133,17 @@
 <!-- ========explore banner html starts========== -->
 <section class="main-flex-banner">
   <div class="container">
-    <h2 class="banner-heading">
-      "Unlock Your Wanderlust and Explore the World with Us!"
-    </h2>
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make
-    </p>
+    <div class="ful_width_banner">
+      <h2 class="banner-heading">
+        "Unlock Your Wanderlust and Explore the World with Us!"
+      </h2>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s, when an unknown printer took a galley of type and scrambled it to
+        make
+      </p>
+    </div>
   </div>
 </section>
 
@@ -336,10 +338,10 @@
     </p>
     <div class="banner-two-box">
       <div class="ban-two-btn btn-ban-p">
-        <a href="#">Sign In <i class="fa-solid fa-arrow-right-long"></i></a>
+        <a href="#" class="btn_ btn_black btn_arrow">Sign In</a>
       </div>
       <div class="ban-two-btn">
-        <a href="#">Sign In <i class="fa-solid fa-arrow-right-long"></i></a>
+        <a href="#" class="btn_ btn_black btn_transparent btn_arrow">Register</a>
       </div>
     </div>
   </div>
@@ -349,7 +351,7 @@
 <section class="pop-tour">
   <div class="container">
     <h4 class="web-h">Popular Tours</h4>
-    <div class="owl-carousel owl-theme tour-owl">
+    <div class="owl-carousel owl-theme tour_slider">
       <div class="item">
         <div class="pop-tour-box">
           <img src="assets/img/tour-1.png" alt="view" />
@@ -482,6 +484,49 @@
       <div class="item">
         <div class="pop-tour-box">
           <img src="assets/img/tour-1.png" alt="view" />
+          <div class="pop-tr-content">
+            <div class="row">
+              <div class="col-md-8">
+                <div class="tour-title text-start">
+                  <strong>City Selfie Tour</strong>
+                  <div class="location-pck">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Geneva, Switzerland</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="tour-title text-end packages-rating">
+                  <span> 4.0 <i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+            <p>
+              In publishing and graphic design, Lorem ipsum is a placeholder
+              text commonly used to demonstrate the visual form of a document or
+              a typeface without relying on meaningful content. Lorem ipsum may
+              be used as a placeholder before final copy is available.
+            </p>
+            <div class="package-icon">
+              <div class="pck-icon-box">
+                <i class="fa-regular fa-calendar"></i>
+                <span>10 Days</span>
+              </div>
+              <div class="pck-icon-box">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <span>4 Places</span>
+              </div>
+            </div>
+            <div class="packages-rating">
+              <strong>From $2,122 / person</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="item">
+        <div class="pop-tour-box">
+          <img src="assets/img/tour-3.png" alt="view" />
           <div class="pop-tr-content">
             <div class="row">
               <div class="col-md-8">
@@ -686,7 +731,7 @@
             ></textarea>
 
             <div class="form-btn text-start">
-              <button type="submit">Submit</button>
+              <button type="submit" class="btn_ btn_black">Submit</button>
             </div>
           </form>
         </div>
@@ -696,6 +741,5 @@
 </section>
 <!-- ---------------------------footer starts--------------------- -->
 <?php
-
-include('inc/footer.php');
+require_once('inc/footer.php');
 ?>

@@ -14,6 +14,24 @@ function owlCarouselJs(){
           },
       }
   });
+  $('.tour_slider').owlCarousel({
+    loop:true,
+    margin:20,
+    nav:true,
+    dots: true,
+    stagePadding: 12,
+    responsive:{
+        0:{
+            items:1
+        },
+        980:{
+            items:2
+        },
+        1280:{
+            items:3
+        },
+    }
+});
 }
 $(document).ready(function(){
   owlCarouselJs();
