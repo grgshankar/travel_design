@@ -3,7 +3,7 @@
 <!-- header part ends -->
 
 <!-- nav slider html -->
-<div class="banner-slider" style="background-image: url(assets/img/banner.png)">
+<section class="banner-slider" style="background-image: url(assets/img/banner.png)">
   <!-- <img src="" alt="banner_photo"> -->
   <div class="container">
     <div class="row">
@@ -62,7 +62,7 @@
       </div>
     </div>
   </div>
-</div>
+</section>
 
 <!-- ====popular destination part starts--------------------- -->
 <section class="main-pop-dest">
@@ -656,7 +656,7 @@
 </section>
 
 <!-- ================why choose section starts========== -->
-<section class="why-choose">
+<section class="why-choose no_bottom_margin">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
