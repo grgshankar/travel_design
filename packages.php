@@ -1,104 +1,16 @@
 <?php require_once 'inc/header.php' ?>
+
+<!-- ==============packages starts============== -->
 <section class="full_width_banner" style="background:url(assets/img/destination_banner.jpg) no-repeat">
     <div class="container">
         <div class="content_wrap">
-            <h3>Explore Our Captivating Destinations!</h3>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+            <h3>Packages</h3>
+            <p>"Embark on a mesmerizing journey through Australia's breathtaking landscapes and vibrant cities – a truly
+                unforgettable adventure awaits!"
             </p>
         </div>
     </div>
 </section>
-<section class="list_destination">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-4">
-                <div class="desti_card">
-                    <img src="assets/img/destination_banner.jpg" alt="desti_1">
-                    <div class="floating_content">
-                        <strong>Indonesia</strong>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi quis animi architecto enim
-                            quasi aperiam perspiciatis inventore...</p>
-                        <div class="btn_wrap">
-                            <a href="destination_detail.php" class="btn_ btn_black btn_solid">Read More</a>
-                        </div>
-                    </div>
-                    <strong>Indonesia</strong>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <div class="desti_card">
-                    <img src="assets/img/desti_2.jpg" alt="desti_2">
-                    <div class="floating_content">
-                        <strong>Australia</strong>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi quis animi architecto enim
-                            quasi aperiam perspiciatis inventore...</p>
-                        <div class="btn_wrap">
-                            <a href="destination_detail.php" class="btn_ btn_black btn_solid">Read More</a>
-                        </div>
-                    </div>
-                    <strong>Australia</strong>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <div class="desti_card">
-                    <img src="assets/img/desti_3.jpg" alt="desti_3">
-                    <div class="floating_content">
-                        <strong>Japan</strong>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi quis animi architecto enim
-                            quasi aperiam perspiciatis inventore...</p>
-                        <div class="btn_wrap">
-                            <a href="destination_detail.php" class="btn_ btn_black btn_solid">Read More</a>
-                        </div>
-                    </div>
-                    <strong>Japan</strong>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <div class="desti_card">
-                    <img src="assets/img/desti_4.jpg" alt="desti_4">
-                    <div class="floating_content">
-                        <strong>Myanmar</strong>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi quis animi architecto enim
-                            quasi aperiam perspiciatis inventore...</p>
-                        <div class="btn_wrap">
-                            <a href="destination_detail.php" class="btn_ btn_black btn_solid">Read More</a>
-                        </div>
-                    </div>
-                    <strong>Myanmar</strong>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <div class="desti_card">
-                    <img src="assets/img/desti_5.jpg" alt="desti_5">
-                    <div class="floating_content">
-                        <strong>Thailand</strong>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi quis animi architecto enim
-                            quasi aperiam perspiciatis inventore...</p>
-                        <div class="btn_wrap">
-                            <a href="destination_detail.php" class="btn_ btn_black btn_solid">Read More</a>
-                        </div>
-                    </div>
-                    <strong>Thailand</strong>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <div class="desti_card">
-                    <img src="assets/img/desti_6.jpg" alt="desti_6">
-                    <div class="floating_content">
-                        <strong>Nepal</strong>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi quis animi architecto enim
-                            quasi aperiam perspiciatis inventore...</p>
-                        <div class="btn_wrap">
-                            <a href="destination_detail.php" class="btn_ btn_black btn_solid">Read More</a>
-                        </div>
-                    </div>
-                    <strong>Nepal</strong>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- ==============packages starts============== -->
 <section class="spc-packages">
   <div class="container">
     <div class="spc-packages-heading text-center">
@@ -228,4 +140,54 @@
     </div>
   </div>
 </section>
+
+<!-- ============Subscribe Box Wrap============= -->
+<section class="subscribe-wrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="sub-box text-start">
+          <h2 class="sub-h">Subscribe Now and Quench Your Wanderlust!</h2>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="sub-box text-end">
+          <div class="web-btn">
+            <a href="#" class="btn_">Join Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========our gallery part starts================ -->
+<section class="gallery-wrap">
+  <div class="container">
+    <div class="gallery-wrap-content">
+      <strong class="small-header">From Our Gallery</strong>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam suscipit ratione et repellat voluptatibus consectetur voluptates porro aspernatur, quo ipsam, debitis vero perspiciatis laboriosam provident placeat quas qui. Architecto, rerum.</p>
+    </div>
+    <div class="gallery-photo">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="glly-photo-wrap">
+            <img class="post-img" src="assets/img/gal_1.jpg" alt="updated images" />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="glly-photo-wrap">
+            <img class="post-img" src="assets/img/gal_2.jpg" alt="updated images" />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="glly-photo-wrap">
+            <img class="post-img" src="assets/img/gal_3.jpg" alt="updated images" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <?php require_once 'inc/footer.php' ?>

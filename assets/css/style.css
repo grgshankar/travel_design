@@ -1102,3 +1102,305 @@ section.list_destination .desti_card:hover>strong {
 .btn_.btn_black.btn_solid:hover {
     background: transparent;
 }
+i.fa-solid.fa-shoe-prints {
+    transform: rotate(-88deg);
+}
+
+section.iteneary_ h2 {
+    font-family: var(--popin);
+    font-weight: 700;
+    color: #514949;
+    font-size: 46px;
+    display: block;
+    margin: 15px 0px;
+    line-height: normal;
+}
+
+section.iteneary_ .it_sub_title {
+    font-size: 18px;
+    color: #514949;
+}
+
+section.iteneary_ .rating_ {
+    color: #514949;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+section.iteneary_ .rating_ i {
+    margin-right: 6px;
+    color: #FCC000;
+}
+
+.iteneary_ .pck-icon-box {
+    font-size: 18px;
+}
+
+section.iteneary_>.container>.row {
+    margin-bottom: 30px;
+}
+.iteneary_details .desc_{
+    margin-bottom: 10px;
+}
+.iteneary_details .desc_ strong {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 6px;
+    color: #514949;
+}
+.iteneary_details .table_wrapper table {
+    width: 100%;
+}
+.iteneary_details .table_wrapper {
+    margin-top: 25px;
+}
+
+.iteneary_details .table_wrapper table th, .iteneary_details .table_wrapper td {
+    border-bottom: 1px solid #d3cecc;
+    padding: 18px 0px;
+}
+
+.iteneary_details .table_wrapper table th {
+    padding-right: 45px;
+}
+
+.iteneary_details .table_wrapper strong.table_heading {
+    font-size: 20px;
+    display: block;
+    border-bottom: 1px solid var(--golden);
+    padding-bottom: 10px;
+}
+.iteneary_details .table_wrapper table tr ul{
+    padding: 10px 0px;
+    margin-bottom: 0px;
+}
+.iteneary_details .table_wrapper table tr ul li {
+    display: block;
+    margin-bottom: 9px;
+    position: relative;
+}
+
+.iteneary_details .table_wrapper table tr ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.iteneary_details .table_wrapper table tr ul li::after {
+    content: '\f00d';
+    position: absolute;
+    left: -22px;
+    top: -5px;
+    width: 10px;
+    height: 10px;
+    font-family: 'fontAwesome';
+    font-size: 23px;
+    -webkit-text-stroke: 1.5px #fff;
+}
+
+.iteneary_details .table_wrapper table tr ul li.tick_::after {
+    content: '\f00c';
+    left: -25px;
+    color: #090;
+}
+.row.iteneary_details .right_content .form_holder {
+    background: #183449;
+    padding: 15px 22px;
+    margin-bottom: 30px;
+}
+
+.row.iteneary_details .right_content .form_holder h3 {
+    color: #fff;
+    display: block;
+}
+
+.row.iteneary_details .right_content .form_holder p {
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.row.iteneary_details .right_content .form_holder ul li {
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.row.iteneary_details .right_content .form_holder ul li input {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 0;
+    background: rgb(53 101 150 / 66%);
+    color: #fff;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    padding-left: 42px;
+}
+.row.iteneary_details .right_content .form_holder ul li input:focus, .row.iteneary_details .right_content .form_holder ul li textarea:focus{
+    outline: none;
+}
+
+.row.iteneary_details .right_content .form_holder ul li i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: #fff;
+    font-size: 22px;
+}
+.row.iteneary_details .right_content .form_holder ul li i.fa-message {
+    top: 22px;
+}
+.row.iteneary_details .right_content .form_holder ul li textarea {
+    height: 150px;
+    resize: none;
+    border-radius: 8px;
+    background: rgb(53 101 150 / 66%);
+    padding-left: 42px;
+    position: relative;
+    color: #fff;
+}
+.row.iteneary_details .right_content .form_holder ul li input::placeholder, .row.iteneary_details .right_content .form_holder ul li textarea{
+    color: #d9d9d9;
+}
+.row.iteneary_details .right_content .form_holder ul li input::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    display: block !important;
+    opacity: 1;
+    visibility: visible;
+}
+
+.row.iteneary_details .right_content .form_holder ul li input[type="submit"] {
+    padding: 15px 10px;
+}
+
+.row.iteneary_details .right_content .form_holder ul li input[type="submit"]:hover {
+    background: #627c94;
+}
+
+.row.iteneary_details .protrait_ img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* packages css */
+
+section.subscribe-wrap {
+    background: #112A3D;
+    padding: 2rem 0;
+}
+
+.sub-h {
+    color: #fff;
+    padding-top: 2rem;
+}
+.gallery-wrap-content strong {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+.sub-box .web-btn a {
+    background: #fff;
+    color: #726765;
+    border: 1px solid;
+}
+.gallery-wrap img{
+    width: 100%;
+}
+
+
+/* gallery css */
+
+/ =======gllery css starts========== /
+.small-header {
+    color: #514949;
+    font-size: 25px;
+    padding: 10px 0;
+    display: block;
+}
+
+.gallery-wrap-content p {
+    font-size: 16px;
+    width: 75%;
+}
+.glly-img-info p, section.mpc-main p {
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.glly-two-img img {
+    width: 100%;
+    height: 245px;
+    object-fit: cover;
+}
+
+.glly-img img {
+    width: 100%;
+    height: 760px;
+    object-fit: cover;
+}
+
+.glly-img-info {
+    padding-top: 4rem;
+}
+
+.glly-two-img {
+    padding: 10px 0;
+}
+
+.glly-img-info .small-header {
+    padding: 0;
+}
+
+section.mpc-main .small-header {
+    padding: 0;
+}
+
+section.gllt-detail-wrap {
+    margin-bottom: 4rem;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+/ Main CSS /
+.grid-wrapper > .img-gallery {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.grid-wrapper > div > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 180px;
+	grid-auto-flow: dense;
+    padding-top: 15px;
+}
+.grid-wrapper .wide {
+	grid-column: span 1;
+}
+.grid-wrapper .tall {
+	grid-row: span 2;
+}
+.grid-wrapper .big {
+	grid-column: span 2;
+	grid-row: span 2;
+}
