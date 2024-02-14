@@ -2,7 +2,7 @@
 <section class="full_width_banner" style="background:url(assets/img/destination_banner.jpg) no-repeat">
     <div class="container">
         <div class="content_wrap">
-            <h3>Australia</h3>
+            <h3>Blog</h3>
             <p>"Embark on a mesmerizing journey through Australia's breathtaking landscapes and vibrant cities – a truly
                 unforgettable adventure awaits!"
             </p>

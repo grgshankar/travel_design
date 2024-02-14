@@ -24,37 +24,37 @@
                 <div class="owl-carousel owl-theme card_slider">
                     <div class="item">
                         <div class="card_">
-                            <strong>Virtual tour 360</strong>
+                            <strong>Latest Tour</strong>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
                                 nihil atque, molestiae quis magnam assumenda labore, neque maiores
                                 omnis, maxime eius voluptatum commodi? Dicta, itaque explicabo
                                 magnam autem recusandae eum!</p>
                             <div class="item_btn">
-                                <a href="#" class="btn_play"><span class="circular_text_wrap"></span></a>
+                                <a href="destination_detail.php" class="btn_play"><span class="circular_text_wrap"></span></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="card_">
-                            <strong>Virtual tour 360</strong>
+                            <strong>Australia Tour</strong>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
                                 nihil atque, molestiae quis magnam assumenda labore, neque maiores
                                 omnis, maxime eius voluptatum commodi? Dicta, itaque explicabo
                                 magnam autem recusandae eum!</p>
                             <div class="item_btn">
-                                <a href="#" class="btn_read_more"><span class="icon_plus"></span>Read More</a>
+                                <a href="destination_detail.php" class="btn_read_more"><span class="icon_plus"></span>Read More</a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="card_">
-                            <strong>Virtual tour 360</strong>
+                            <strong>Latest Tour</strong>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
                                 nihil atque, molestiae quis magnam assumenda labore, neque maiores
                                 omnis, maxime eius voluptatum commodi? Dicta, itaque explicabo
                                 magnam autem recusandae eum!</p>
                             <div class="item_btn">
-                                <a href="#" class="btn_play"><span class="circular_text_wrap"></span></a>
+                                <a href="destination_detail.php" class="btn_play"><span class="circular_text_wrap"></span></a>
                             </div>
                         </div>
                     </div>
@@ -71,6 +71,7 @@
         <div class="row">
             <div class="col-sm-12 col-lg-4">
                 <div class="pop-dest-box">
+                    <a href="destination_detail.php" class="just_link"></a>
                     <div class="pop-dest-img">
                         <img src="assets/img/destination-1.png" alt="destination image" />
                     </div>
@@ -90,6 +91,7 @@
             </div>
             <div class="col-sm-12 col-lg-4">
                 <div class="pop-dest-box">
+                    <a href="destination_detail.php" class="just_link"></a>
                     <div class="pop-dest-img">
                         <img src="assets/img/destination-3.png" alt="destination image" />
                     </div>
@@ -109,6 +111,7 @@
             </div>
             <div class="col-sm-12 col-lg-4">
                 <div class="pop-dest-box">
+                    <a href="destination_detail.php" class="just_link"></a>
                     <div class="pop-dest-img">
                         <img src="assets/img/destination-2.png" alt="destination image" />
                     </div>

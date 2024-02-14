@@ -11,7 +11,7 @@
 <section class="list_destination">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="desti_card">
                     <img src="assets/img/destination_banner.jpg" alt="desti_1">
                     <div class="floating_content">
@@ -25,7 +25,7 @@
                     <strong>Indonesia</strong>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="desti_card">
                     <img src="assets/img/desti_2.jpg" alt="desti_2">
                     <div class="floating_content">
@@ -39,7 +39,7 @@
                     <strong>Australia</strong>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="desti_card">
                     <img src="assets/img/desti_3.jpg" alt="desti_3">
                     <div class="floating_content">
@@ -53,7 +53,7 @@
                     <strong>Japan</strong>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="desti_card">
                     <img src="assets/img/desti_4.jpg" alt="desti_4">
                     <div class="floating_content">
@@ -67,7 +67,7 @@
                     <strong>Myanmar</strong>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="desti_card">
                     <img src="assets/img/desti_5.jpg" alt="desti_5">
                     <div class="floating_content">
@@ -81,7 +81,7 @@
                     <strong>Thailand</strong>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="desti_card">
                     <img src="assets/img/desti_6.jpg" alt="desti_6">
                     <div class="floating_content">
