@@ -653,7 +653,7 @@
 </section>
 
 <!-- ================why choose section starts========== -->
-<section class="why-choose no_bottom_margin">
+<section class="why-choose no_bottom_margin" style="background:url(assets/img/why-choose.png)">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
